@@ -1,2 +1,2 @@
-# Grupo_04
+# Grupo_02
 Proyecto Segundo Parcial Estructuras de Datos
