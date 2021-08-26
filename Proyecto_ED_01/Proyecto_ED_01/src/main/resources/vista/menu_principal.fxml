@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.controlador.InicioControlador">
+   <children>
+      <Text fill="#bf1a25" layoutX="213.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡3 En Raya!">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn_Jugador" layoutX="223.0" layoutY="149.0" mnemonicParsing="false" onAction="#switchToJugador" text="Un Jugador" textFill="#63da13">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Salir" layoutX="256.0" layoutY="286.0" mnemonicParsing="false" onAction="#cerrarJuego" text="Salir" textFill="RED">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Multijugador" layoutX="215.0" layoutY="219.0" mnemonicParsing="false" onAction="#switchToMultijugador" text="Multijugador" textFill="#6a59c2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

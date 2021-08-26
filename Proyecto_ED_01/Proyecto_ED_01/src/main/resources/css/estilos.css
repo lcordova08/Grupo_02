@@ -1,0 +1,22 @@
+
+.main-bg{
+    -fx-background-image: url("../recursos/BackgroundDesert.jpg");
+}
+
+.inner-bg{
+    -fx-background-color: rgba(33, 33, 33, 0.5);
+    -fx-background-radius: 10;
+}
+
+
+.text-field{
+   -fx-font-size: 13px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #ffeb9d;
+   -fx-text-fill: #ffeb9d;
+}
+
+
+.label{   
+   -fx-font-family: "Arial Black";
+}
